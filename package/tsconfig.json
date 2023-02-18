@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "types",
+        "sourceMap": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "emitDeclarationOnly": true,
+        "types": ["node", "three"],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["src"]
+}
